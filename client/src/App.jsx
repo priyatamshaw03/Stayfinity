@@ -13,6 +13,7 @@ import ListRoom from "./pages/HotelOwner/ListRoom";
 import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
 import Signup from "./components/Signup";
+import About from "./pages/About";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/rooms' element={<Rooms/>}/>
+          <Route path='/about' element={<About/>}/>
           <Route path='/rooms/:id' element={<RoomsDetails/>}/>
           <Route path='/my-bookings' element={<MyBookings/>}/>
           <Route path='/owner' element={<Layout/>}>

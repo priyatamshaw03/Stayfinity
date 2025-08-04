@@ -12,8 +12,7 @@ import AddRoom from "./pages/HotelOwner/AddRoom";
 import ListRoom from "./pages/HotelOwner/ListRoom";
 import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
-import Signup from "./components/signup";
-
+import Signup from "./components/Signup";
 
 
 function App() {

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import Footer from "./components/Footer";
+import About from "./pages/About";
 import RoomsDetails from "./pages/RoomsDetails";
 import MyBookings from "./pages/MyBookings";
 import HotelRegs from "./components/HotelRegs";
@@ -10,10 +11,7 @@ import Layout from "./pages/HotelOwner/Layout";
 import Dashboard from "./pages/HotelOwner/Dashboard";
 import AddRoom from "./pages/HotelOwner/AddRoom";
 import ListRoom from "./pages/HotelOwner/ListRoom";
-import Login from "./components/Login";
 import { ToastContainer } from "react-toastify";
-import Signup from "./components/Signup";
-import About from "./pages/About";
 
 
 function App() {
@@ -25,8 +23,6 @@ function App() {
       <div className='min-h-[70vh]'>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/signup' element={<Signup/>}/>
           <Route path='/rooms' element={<Rooms/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/rooms/:id' element={<RoomsDetails/>}/>
